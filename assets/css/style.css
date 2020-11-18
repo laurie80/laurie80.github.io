@@ -1,0 +1,47 @@
+body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#firstResult,
+#operator,
+#secondResult {
+    height: 10rem;
+    font-size: 1.5rem;
+    border: none;
+}
+
+#finalResult {
+    height: 3rem;
+    font-size: 1.5rem;
+    border: none;
+}
+
+#operator {
+    padding-top: 4rem;
+}
+
+#firstLign, #secondLign, #thirdLign, #fourthLign {
+    height: 5rem;
+}
+
+#fiveLign, #egal {
+    height: 2rem;
+    padding: 0;
+}
+
+.total {
+    margin: 0;
+    padding: 0;
+}
+
+#egal {
+    height: 5rem;
+}
+
+#cancel {
+    color: white;
+    background-color: orange;
+}
