@@ -97,15 +97,15 @@ decimalPoint.onclick = function () {
 
 total.onclick = function () {
     if (operator.innerText == add.value) {
-        finalResult.value = parseInt(numberOne.value) + parseInt(numberTwo.value);
+        finalResult.value = parseFloat(numberOne.value) + parseFloat(numberTwo.value);
     }
     if (operator.innerText == multiplication.value) {
-        finalResult.value = parseInt(numberOne.value) * parseInt(numberTwo.value);
+        finalResult.value = parseFloat(numberOne.value) * parseFloat(numberTwo.value);
     }
     if (operator.innerText == substraction.value) {
-        finalResult.value = parseInt(numberOne.value) - parseInt(numberTwo.value);
+        finalResult.value = parseFloat(numberOne.value) - parseFloat(numberTwo.value);
     }
     if (operator.innerText == division.value) {
-        finalResult.value = parseInt(numberOne.value) / parseInt(numberTwo.value);
+        finalResult.value = parseFloat(numberOne.value) / parseFloat(numberTwo.value);
     }
 }
