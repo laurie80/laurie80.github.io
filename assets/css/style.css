@@ -8,7 +8,7 @@ body {
 #firstResult,
 #operator,
 #secondResult {
-    height: 10rem;
+    height: 8rem;
     font-size: 1.5rem;
     border: none;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 #operator {
-    padding-top: 4rem;
+    padding-top: 3rem;
 }
 
 #firstLign, #secondLign, #thirdLign, #fourthLign {
@@ -38,7 +38,7 @@ body {
 }
 
 #egal {
-    height: 2.5rem;
+    height: 3rem;
 }
 
 #cancel {
